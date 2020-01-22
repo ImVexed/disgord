@@ -1,4 +1,4 @@
-module github.com/andersfylling/disgord
+module github.com/ImVexed/disgord
 
 go 1.13
 
