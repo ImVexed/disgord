@@ -78,19 +78,14 @@ func createClient(conf *Config) (c *Client, err error) {
 	// ignore PRESENCES_REPLACE: https://github.com/discordapp/discord-api-docs/issues/683
 	conf.IgnoreEvents = append(conf.IgnoreEvents, "PRESENCES_REPLACE")
 
-	// caching
-	var cacher *Cache
-	if !conf.DisableCache {
-		if conf.CacheConfig == nil {
-			conf.CacheConfig = &CacheConfig{}
-		}
-		cacher, err = newCache(conf.CacheConfig)
-		if err != nil {
-			return nil, err
-		}
-	} else {
-		// create an empty cache to avoid nil panics
-		cacher, err = newCache(&CacheConfig{
+	// websocket sharding
+	evtChan := make(chan *gateway.Event, 2) // TODO: higher value when more shards?
+
+	// event dispatcher
+	dispatch := newDispatcher()
+
+	if conf.Cache == nil {
+		cacher, err := newCache(&CacheConfig{
 			DisableUserCaching:       true,
 			DisableChannelCaching:    true,
 			DisableGuildCaching:      true,
@@ -99,13 +94,9 @@ func createClient(conf *Config) (c *Client, err error) {
 		if err != nil {
 			return nil, err
 		}
+
+		conf.Cache = cacher
 	}
-
-	// websocket sharding
-	evtChan := make(chan *gateway.Event, 2) // TODO: higher value when more shards?
-
-	// event dispatcher
-	dispatch := newDispatcher()
 
 	// create a disgord Client/instance/session
 	c = &Client{
@@ -116,7 +107,7 @@ func createClient(conf *Config) (c *Client, err error) {
 		botToken:     conf.BotToken,
 		dispatcher:   dispatch,
 		req:          httdClient,
-		cache:        cacher,
+		cache:        conf.Cache,
 		log:          conf.Logger,
 		pool:         newPools(),
 		eventChan:    evtChan,
@@ -180,7 +171,7 @@ type Config struct {
 	RESTBucketManager httd.RESTBucketManager
 
 	DisableCache bool
-	CacheConfig  *CacheConfig
+	Cache        *Cache
 	ShardConfig  ShardConfig
 
 	// IgnoreEvents will skip events that matches the given event names.
