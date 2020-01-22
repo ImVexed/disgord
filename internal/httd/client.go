@@ -23,7 +23,7 @@ const (
 	RegexpEmoji         = `([a-zA-Z0-9_]+\:[0-9]+)`
 
 	// Header
-	AuthorizationFormat = "Bot %s"
+	AuthorizationFormat = "%s"
 	UserAgentFormat     = "DiscordBot (%s, %s) %s"
 
 	ContentEncoding = "Content-Encoding"
