@@ -109,7 +109,7 @@ func (e *ErrorUsingDeactivatedCache) Error() string {
 	return e.info
 }
 
-func newCache(conf *CacheConfig) (c *Cache, err error) {
+func NewCache(conf *CacheConfig) (c *Cache, err error) {
 	c = &Cache{
 		immutable: !conf.Mutable,
 		conf:      conf,

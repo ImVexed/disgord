@@ -85,7 +85,7 @@ func createClient(conf *Config) (c *Client, err error) {
 	dispatch := newDispatcher()
 
 	if conf.Cache == nil {
-		cacher, err := newCache(&CacheConfig{
+		cacher, err := NewCache(&CacheConfig{
 			DisableUserCaching:       true,
 			DisableChannelCaching:    true,
 			DisableGuildCaching:      true,
