@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/andersfylling/disgord"
+	"github.com/ImVexed/disgord"
 )
 
 type clientMock struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/andersfylling/disgord"
+	"github.com/ImVexed/disgord"
 )
 
 func main() {

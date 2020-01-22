@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/andersfylling/disgord/internal/endpoint"
-	"github.com/andersfylling/disgord/internal/httd"
+	"github.com/ImVexed/disgord/internal/endpoint"
+	"github.com/ImVexed/disgord/internal/httd"
 
-	"github.com/andersfylling/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/constant"
 )
 
 // Channel types

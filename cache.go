@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/constant"
-	"github.com/andersfylling/disgord/internal/crs"
-	"github.com/andersfylling/disgord/internal/util"
+	"github.com/ImVexed/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/crs"
+	"github.com/ImVexed/disgord/internal/util"
 )
 
 type cacheRegistry uint

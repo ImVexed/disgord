@@ -5,7 +5,7 @@ So the time has come where you want to be a bot engineer huh? In this article yo
 package main
 
 import (
-	"github.com/andersfylling/disgord"
+	"github.com/ImVexed/disgord"
 	"os"
 )
 
@@ -35,8 +35,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/andersfylling/disgord"
-	"github.com/andersfylling/disgord/std"
+	"github.com/ImVexed/disgord"
+	"github.com/ImVexed/disgord/std"
 	"os"
 )
 

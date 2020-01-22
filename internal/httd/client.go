@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/andersfylling/disgord/internal/util"
+	"github.com/ImVexed/disgord/internal/util"
 )
 
 // defaults and string format's for Discord interaction

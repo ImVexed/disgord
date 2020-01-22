@@ -13,12 +13,12 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/andersfylling/disgord/internal/gateway/cmd"
-	"github.com/andersfylling/disgord/internal/gateway/event"
-	"github.com/andersfylling/disgord/internal/gateway/opcode"
-	"github.com/andersfylling/disgord/internal/util"
+	"github.com/ImVexed/disgord/internal/gateway/cmd"
+	"github.com/ImVexed/disgord/internal/gateway/event"
+	"github.com/ImVexed/disgord/internal/gateway/opcode"
+	"github.com/ImVexed/disgord/internal/util"
 
-	"github.com/andersfylling/disgord/internal/logger"
+	"github.com/ImVexed/disgord/internal/logger"
 )
 
 // NewManager creates a new socket client manager for handling behavior and Discord events. Note that this

@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/constant"
-	"github.com/andersfylling/disgord/internal/event"
-	"github.com/andersfylling/disgord/internal/gateway/cmd"
-	"github.com/andersfylling/disgord/internal/logger"
+	"github.com/ImVexed/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/event"
+	"github.com/ImVexed/disgord/internal/gateway/cmd"
+	"github.com/ImVexed/disgord/internal/logger"
 )
 
 const defaultShardRateLimit time.Duration = 5*time.Second + 100*time.Millisecond

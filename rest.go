@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/andersfylling/disgord/internal/gateway"
-	"github.com/andersfylling/disgord/internal/httd"
-	"github.com/andersfylling/disgord/internal/util"
+	"github.com/ImVexed/disgord/internal/gateway"
+	"github.com/ImVexed/disgord/internal/httd"
+	"github.com/ImVexed/disgord/internal/util"
 )
 
 type ErrRest = httd.ErrREST

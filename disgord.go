@@ -4,7 +4,7 @@
 //
 // Create a DisGord session to get access to the REST API and socket functionality. In the following example, we listen for new messages and write a "hello" message when our handler function gets fired.
 //
-// Session interface: https://godoc.org/github.com/andersfylling/disgord/#Session
+// Session interface: https://godoc.org/github.com/ImVexed/disgord/#Session
 //  discord := disgord.New(&disgord.Config{
 //    BotToken: "my-secret-bot-token",
 //  })
@@ -144,7 +144,7 @@
 //
 // To keep it safe and reliable, you can not directly affect the contents of the cache. Unlike discordgo where everything is mutable, the caching in disgord is immutable. This does reduce performance as a copy must be made (only on new cache entries), but as a performance freak, I can tell you right now that a simple struct copy is not that expensive. This also means that, as long as discord sends their events properly, the caching will always reflect the true state of discord.
 //
-// If there is a bug in the cache and you keep getting the incorrect data, please file an issue at github.com/andersfylling/disgord so it can quickly be resolved(!)
+// If there is a bug in the cache and you keep getting the incorrect data, please file an issue at github.com/ImVexed/disgord so it can quickly be resolved(!)
 //
 // Bypass the built-in REST cache
 //
@@ -186,9 +186,9 @@ package disgord
 import (
 	"fmt"
 
-	"github.com/andersfylling/disgord/internal/util"
+	"github.com/ImVexed/disgord/internal/util"
 
-	"github.com/andersfylling/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/constant"
 )
 
 const Name = constant.Name

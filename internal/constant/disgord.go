@@ -1,7 +1,7 @@
 package constant
 
 // GitHubURL repository url
-const GitHubURL = "https://github.com/andersfylling/disgord"
+const GitHubURL = "https://github.com/ImVexed/disgord"
 
 const Name = "DisGord"
 

@@ -6,7 +6,7 @@ package disgord
 import (
 	"context"
 
-	"github.com/andersfylling/disgord/internal/event"
+	"github.com/ImVexed/disgord/internal/event"
 )
 
 func AllEvents(except ...string) []string {

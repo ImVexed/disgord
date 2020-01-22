@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/andersfylling/disgord"
-	"github.com/andersfylling/disgord/std"
+	"github.com/ImVexed/disgord"
+	"github.com/ImVexed/disgord/std"
 )
 
 // replyPongToPing is a handler that replies pong to ping messages

@@ -10,7 +10,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/andersfylling/disgord/internal/util"
+	"github.com/ImVexed/disgord/internal/util"
 
 	"nhooyr.io/websocket"
 )

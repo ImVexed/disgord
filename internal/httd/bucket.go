@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/util"
+	"github.com/ImVexed/disgord/internal/util"
 )
 
 func newLeakyBucket(global *ltBucket) (b *ltBucket) {

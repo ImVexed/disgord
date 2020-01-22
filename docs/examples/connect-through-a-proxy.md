@@ -7,7 +7,7 @@ package main
 import (
 	"os"
 
-	"github.com/andersfylling/disgord"
+	"github.com/ImVexed/disgord"
 	"golang.org/x/net/proxy"
 )
 

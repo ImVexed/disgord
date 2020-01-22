@@ -13,9 +13,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/andersfylling/disgord/internal/constant"
-	"github.com/andersfylling/disgord/internal/endpoint"
-	"github.com/andersfylling/disgord/internal/httd"
+	"github.com/ImVexed/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/endpoint"
+	"github.com/ImVexed/disgord/internal/httd"
 )
 
 // different message acticity types

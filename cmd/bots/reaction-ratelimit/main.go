@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andersfylling/disgord"
-	"github.com/andersfylling/disgord/internal/constant"
+	"github.com/ImVexed/disgord"
+	"github.com/ImVexed/disgord/internal/constant"
 )
 
 type keys struct {

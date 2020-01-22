@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/andersfylling/disgord"
+	"github.com/ImVexed/disgord"
 )
 
 var token = os.Getenv("DISGORD_TOKEN_INTEGRATION_TEST")

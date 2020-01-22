@@ -1,9 +1,9 @@
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/andersfylling/disgord v0.12.0-rc1 h1:K7XIIFKRw9VSEcDt9hukuIw/L321RtQe9irkYxFwsBk=
-github.com/andersfylling/disgord v0.12.0-rc1/go.mod h1:HPvHTCU6dNxTgOX3v0moG0myJyMJRiptPgl8ZrrV5vQ=
-github.com/andersfylling/disgord v0.12.0-rc5/go.mod h1:HPvHTCU6dNxTgOX3v0moG0myJyMJRiptPgl8ZrrV5vQ=
-github.com/andersfylling/disgord v0.16.1 h1:jNDR0Kaoi0dL29TYEvIZK+QhvTggCRbi46JHBd+zDjY=
-github.com/andersfylling/disgord v0.16.1/go.mod h1:SjjWjZGIQauOgHxYdIGrixqLAV6JykVagv374iHoFBY=
+github.com/ImVexed/disgord v0.12.0-rc1 h1:K7XIIFKRw9VSEcDt9hukuIw/L321RtQe9irkYxFwsBk=
+github.com/ImVexed/disgord v0.12.0-rc1/go.mod h1:HPvHTCU6dNxTgOX3v0moG0myJyMJRiptPgl8ZrrV5vQ=
+github.com/ImVexed/disgord v0.12.0-rc5/go.mod h1:HPvHTCU6dNxTgOX3v0moG0myJyMJRiptPgl8ZrrV5vQ=
+github.com/ImVexed/disgord v0.16.1 h1:jNDR0Kaoi0dL29TYEvIZK+QhvTggCRbi46JHBd+zDjY=
+github.com/ImVexed/disgord v0.16.1/go.mod h1:SjjWjZGIQauOgHxYdIGrixqLAV6JykVagv374iHoFBY=
 github.com/andersfylling/snowflake/v4 v4.0.1 h1:zBUa0CBSrYBy0QV9WM0LyPKvO4sQ9K50j+q+eVCB9pM=
 github.com/andersfylling/snowflake/v4 v4.0.1/go.mod h1:m/0yauv7FVegGSd+TJ2fNnLG243FQVPqLwyQo0CwFP8=
 github.com/andersfylling/snowflake/v4 v4.0.2 h1:7po1HHxq8Pz7F+vsMFMoGiHOlpzBzqXoop4O8b24wqI=

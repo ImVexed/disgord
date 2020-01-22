@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/gateway"
+	"github.com/ImVexed/disgord/internal/gateway"
 )
 
 func injectRandomEvents(t *testing.T, callback func(name string, evt interface{}) error) {

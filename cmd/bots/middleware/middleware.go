@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/andersfylling/disgord"
-	"github.com/andersfylling/disgord/internal/event"
+	"github.com/ImVexed/disgord"
+	"github.com/ImVexed/disgord/internal/event"
 )
 
 func filterTestPrefix(evt interface{}) (ret interface{}) {

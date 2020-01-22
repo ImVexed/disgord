@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/andersfylling/disgord"
+	"github.com/ImVexed/disgord"
 )
 
 func TestOn(t *testing.T) {

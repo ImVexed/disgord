@@ -1,8 +1,8 @@
-module github.com/andersfylling/disgord/generate/discorddocs
+module github.com/ImVexed/disgord/generate/discorddocs
 
 require (
 	github.com/PuerkitoBio/goquery v1.5.0 // indirect
-	github.com/andersfylling/disgord v0.12.0-rc5.0.20190926143217-421b930892ae
+	github.com/ImVexed/disgord v0.12.0-rc5.0.20190926143217-421b930892ae
 	github.com/antchfx/htmlquery v1.0.0 // indirect
 	github.com/antchfx/xmlquery v1.0.0 // indirect
 	github.com/antchfx/xpath v0.0.0-20190129040759-c8489ed3251e // indirect
@@ -14,6 +14,6 @@ require (
 	google.golang.org/appengine v1.4.0 // indirect
 )
 
-replace github.com/andersfylling/disgord => ../../
+replace github.com/ImVexed/disgord => ../../
 
 go 1.13

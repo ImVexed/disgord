@@ -3,7 +3,7 @@ package logger
 import (
 	"fmt"
 
-	"github.com/andersfylling/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/constant"
 	"go.uber.org/zap"
 )
 

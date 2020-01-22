@@ -3,9 +3,9 @@ package disgord
 import (
 	"context"
 
-	"github.com/andersfylling/disgord/internal/constant"
-	"github.com/andersfylling/disgord/internal/endpoint"
-	"github.com/andersfylling/disgord/internal/httd"
+	"github.com/ImVexed/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/endpoint"
+	"github.com/ImVexed/disgord/internal/httd"
 )
 
 type AuditLogEvt uint

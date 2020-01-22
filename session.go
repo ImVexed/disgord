@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/logger"
+	"github.com/ImVexed/disgord/internal/logger"
 )
 
 // Emitter for emitting data from A to B. Used in websocket connection

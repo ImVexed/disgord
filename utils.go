@@ -7,7 +7,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/andersfylling/disgord/internal/gateway"
+	"github.com/ImVexed/disgord/internal/gateway"
 )
 
 // ShardID calculate the shard id for a given guild.

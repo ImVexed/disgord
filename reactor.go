@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/gateway"
-	"github.com/andersfylling/disgord/internal/util"
+	"github.com/ImVexed/disgord/internal/gateway"
+	"github.com/ImVexed/disgord/internal/util"
 )
 
 //////////////////////////////////////////////////////

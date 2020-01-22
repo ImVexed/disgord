@@ -10,15 +10,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/disgorderr"
-	"github.com/andersfylling/disgord/internal/gateway"
-	"github.com/andersfylling/disgord/internal/logger"
+	"github.com/ImVexed/disgord/internal/disgorderr"
+	"github.com/ImVexed/disgord/internal/gateway"
+	"github.com/ImVexed/disgord/internal/logger"
 
 	"golang.org/x/net/proxy"
 
-	"github.com/andersfylling/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/constant"
 
-	"github.com/andersfylling/disgord/internal/httd"
+	"github.com/ImVexed/disgord/internal/httd"
 )
 
 // New create a Client. But panics on configuration/setup errors.

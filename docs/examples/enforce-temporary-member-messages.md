@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/andersfylling/disgord"
-	"github.com/andersfylling/disgord/std"
+	"github.com/ImVexed/disgord"
+	"github.com/ImVexed/disgord/std"
 )
 
 const MessageLifeTime = 5 // seconds

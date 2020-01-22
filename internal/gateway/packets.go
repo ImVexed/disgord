@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/andersfylling/disgord/internal/gateway/opcode"
+	"github.com/ImVexed/disgord/internal/gateway/opcode"
 )
 
 //////////////////////////////////////////////////////

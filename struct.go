@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/constant"
+	"github.com/ImVexed/disgord/internal/constant"
 )
 
 // common functionality/types used by struct_*.go files goes here

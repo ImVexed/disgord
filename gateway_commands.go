@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/andersfylling/disgord/internal/gateway"
-	"github.com/andersfylling/disgord/internal/gateway/cmd"
+	"github.com/ImVexed/disgord/internal/gateway"
+	"github.com/ImVexed/disgord/internal/gateway/cmd"
 )
 
 // gatewayCmdName is the gateway command name for the payload to be sent to Discord over a websocket connection.

@@ -1,6 +1,6 @@
 goos: linux
 goarch: amd64
-pkg: github.com/andersfylling/disgord/crs
+pkg: github.com/ImVexed/disgord/crs
 BenchmarkCRS/set-lfu-unlimited-8         	10628239	       152 ns/op
 BenchmarkCRS/set-lfu-unlimited-8         	12415581	       106 ns/op
 BenchmarkCRS/set-lfu-unlimited-8         	12566304	       104 ns/op
@@ -42,4 +42,4 @@ BenchmarkCRS/get-lfu-8                   	1000000000	         0.764 ns/op
 BenchmarkCRS/get-lfu-8                   	1000000000	         0.783 ns/op
 BenchmarkCRS/get-lfu-8                   	1000000000	         0.778 ns/op
 PASS
-ok  	github.com/andersfylling/disgord/crs	228.294s
+ok  	github.com/ImVexed/disgord/crs	228.294s

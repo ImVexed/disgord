@@ -4,11 +4,11 @@
     <a href="https://codecov.io/gh/andersfylling/disgord">
       <img src="https://codecov.io/gh/andersfylling/disgord/branch/develop/graph/badge.svg" />
     </a>
-    <a href='https://goreportcard.com/report/github.com/andersfylling/disgord'>
-      <img src='https://goreportcard.com/badge/github.com/andersfylling/disgord' alt='Code coverage' />
+    <a href='https://goreportcard.com/report/github.com/ImVexed/disgord'>
+      <img src='https://goreportcard.com/badge/github.com/ImVexed/disgord' alt='Code coverage' />
     </a>
-    <a href='http://godoc.org/github.com/andersfylling/disgord'>
-      <img src='https://godoc.org/github.com/andersfylling/disgord?status.svg' alt='Godoc' />
+    <a href='http://godoc.org/github.com/ImVexed/disgord'>
+      <img src='https://godoc.org/github.com/ImVexed/disgord?status.svg' alt='Godoc' />
     </a>
   </p>
   <p>
@@ -38,9 +38,9 @@ Remember to read the docs/code for whatever version of disgord you are using. Th
 ## Starter guide
 > This project uses [Go Modules](https://github.com/golang/go/wiki/Modules) for dealing with dependencies, remember to activate module support in your IDE
 
-> Examples can be found in [docs/examples](docs/examples) and some open source projects DisGord projects in the [wiki](https://github.com/andersfylling/disgord/wiki/A-few-DisGord-Projects)
+> Examples can be found in [docs/examples](docs/examples) and some open source projects DisGord projects in the [wiki](https://github.com/ImVexed/disgord/wiki/A-few-DisGord-Projects)
 
-I highly suggest reading the [Discord API documentation](https://discordapp.com/developers/docs/intro) and the [DisGord go doc](http://godoc.org/github.com/andersfylling/disgord).
+I highly suggest reading the [Discord API documentation](https://discordapp.com/developers/docs/intro) and the [DisGord go doc](http://godoc.org/github.com/ImVexed/disgord).
 
 Here is a basic bot program that prints out every message. Save it as `main.go`, run `go mod init bot` and `go mod download`. You can then start the bot by writing `go run .`
 
@@ -50,7 +50,7 @@ package main
 import (
 	  "context"
     "fmt"
-    "github.com/andersfylling/disgord"
+    "github.com/ImVexed/disgord"
     "os"
 )
 
@@ -139,7 +139,7 @@ To contribute with code, always create an issue before you open a pull request. 
 ```Markdown
 1. How do I find my bot token and/or add my bot to a server?
 
-Tutorial here: https://github.com/andersfylling/disgord/wiki/Get-bot-token-and-add-it-to-a-server
+Tutorial here: https://github.com/ImVexed/disgord/wiki/Get-bot-token-and-add-it-to-a-server
 ```
 
 ```Markdown

@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/andersfylling/disgord"
+	"github.com/ImVexed/disgord"
 )
 
 const MessageLifeTime = 5 * time.Second

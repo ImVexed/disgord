@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andersfylling/disgord/internal/gateway"
-	"github.com/andersfylling/disgord/internal/gateway/cmd"
+	"github.com/ImVexed/disgord/internal/gateway"
+	"github.com/ImVexed/disgord/internal/gateway/cmd"
 
 	"golang.org/x/crypto/nacl/secretbox"
 )
